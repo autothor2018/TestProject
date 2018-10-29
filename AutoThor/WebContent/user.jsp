@@ -17,7 +17,7 @@
 <body>
     <script>
         $(function() {
-            $('input[name=dob]').datepicker();
+            $("#date").datepicker();
         });
     </script>
     
@@ -43,7 +43,7 @@
                 </div>
                 <div class="form-group">
                     <label for="profession">
-                        DOB : <input class="form-control" type="text" name="dob" value="<fmt:formatDate pattern="MM/dd/yyyy" value="${user.dob}" />" />
+                        DOB : (mm-dd-yyyy)<input class="form-control" type="text" name="dob" id="date" value="<fmt:formatDate pattern="MM/dd/yyyy" value="${user.dob}" />" />
                     </label>
                 </div>
                 <div class="form-group">
