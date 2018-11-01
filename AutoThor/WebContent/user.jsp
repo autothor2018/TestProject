@@ -27,7 +27,7 @@
                  
                 <div class="form-group">
                     <label for="name">
-                         ID :<input class="form-control" type="text" readonly="readonly" name="userid" value="<c:out value="${user.userid}" />" />
+                         User ID :<input class="form-control" type="text" readonly="readonly" name="userid" value="<c:out value="${user.userid}" />" />
                     </label>
                 </div>  
                
