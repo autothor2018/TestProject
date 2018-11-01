@@ -35,7 +35,7 @@
                                                     DOB
                                             </th>
                                             <th>
-                                                    Email address
+                                                    Email 
                                             </th>
                                              <th>
                                                     Action
