@@ -27,7 +27,7 @@
                  
                 <div class="form-group">
                     <label for="name">
-                         User ID :<input class="form-control" type="text" readonly="readonly" name="userid" value="<c:out value="${user.userid}" />" />
+                         ID :<input class="form-control" type="text" readonly="readonly" name="userid" value="<c:out value="${user.userid}" />" />
                     </label>
                 </div>  
                
@@ -48,7 +48,7 @@
                 </div>
                 <div class="form-group">
                     <label for="profession">
-                        Email address:  <input class="form-control" type="text" name="email" value="<c:out value="${user.email}" />" />
+                        Email :  <input class="form-control" type="text" name="email" value="<c:out value="${user.email}" />" />
                     </label>
                 </div>
                 <input type="submit" value="Submit" class="btn btn-info" />
