@@ -48,7 +48,7 @@
                 </div>
                 <div class="form-group">
                     <label for="profession">
-                        Email address:  <input class="form-control" type="text" name="email" value="<c:out value="${user.email}" />" />
+                        Email :  <input class="form-control" type="text" name="email" value="<c:out value="${user.email}" />" />
                     </label>
                 </div>
                 <input type="submit" value="Submit" class="btn btn-info" />
